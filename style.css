@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sarala&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sarala:wght@700&display=swap');
+ 
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+ }
+
+ body {
+    font-size: 100%;
+    background-image:url(https://img.freepik.com/vetores-gratis/fundo-futurista-de-tecnologia-gradiente_23-2149115236.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+
+ .cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+ }
+
+ .cabecalho-imagem {
+    height: 100px;
+    width: 150px;
+ }
+
+ .cabecalho-menu {
+    display: flex;
+    gap: 30px;
+ }
+
+ .cabecalho-menu-item {
+    font-family: 'Sarala', sans-serif;
+    color: #FFF;
+    font-weight: 400;
+    font-size: 26px bold;
+ }
+
+ .conteudo {
+    margin-bottom: 40px;
+    border-top: 0.4px solid #FFF;
+ }
+
+ .conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+ }
+
+ .conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+ }
+
+ .conteudo-principal-escrito-titulo {
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 40px; 
+    color: #FFF;
+ }
+
+ .conteudo-principal-escrito-subtitulo {
+    font-family: 'Sarala', sans-serif;
+    font-size: 14px; 
+    color: #FFF;
+ }
+ 
+ .conteudo-principal-botao {
+    background-color: #d3d0d0;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25s);
+    border-radius: 20px;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 24px; 
+    color: #FFF;
+ }
+
+ .conteudo-principal-botao:hover {
+   background-color: rgba(170, 170, 170, 0.53);
+ }
+
+
+ .conteudo-principal-imagem {
+    height: 430px;
+    padding-top: 30px;
+    border-radius: 35%;
+ }
+
+ .conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-top: 40px;
+ }
+
+ .conteudo-secudario-titulo {
+    border-top: 0.4px solid #FFF;
+    padding-top: 30px;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 44px;
+    color: #FFF;
+    margin-bottom: 15px;
+ }
+
+ .conteudo-secundario-subtitulo {
+    font-family: 'Sarala', sans-serif;
+    font-size: 16px;
+    font-style: bold;
+    text-align: right; 
+    color: #FFF;
+ }
+
+ .conteudo-secundario-paragrafo-normal {
+    font-family: 'Sarala', sans-serif;
+    font-size: 12px; 
+    color: #FFF;
+ }
+
+ .conteudo-secundario-paragrafo-strong {
+   font-style: bold;
+   font-family: 'Sarala', sans-serif;
+   font-size: 12px; 
+   color: #FFF;
+   
+ }
+
+
+ /*.conteudo-secundario-paragrafo {
+   font-family: 'Sarala', sans-serif;
+   font-weight: 300;
+   font-size: 24px; 
+   color: #FFF;
+ }*/
+
+
+
+
+
+
+
+
+
+
+ .rodape {
+   background-color: aliceblue;
+   padding: 20px;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   gap: 10px;
+ }
+
+ .rodape-imagem {
+   height: 50px;
+ }
+
+ .rodape-texto-reservado {
+    font-family: 'Sarala', sans-serif;
+    font-size: 14px; 
+    color: #000;
+ }
